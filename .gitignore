@@ -51,6 +51,8 @@ captures/
 # IntelliJ
 *.iml
 .idea
+.settings
+.classpath
 
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
@@ -58,3 +60,5 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
+android/.project

@@ -6,4 +6,5 @@ declare module "@capacitor/core" {
 
 export interface ZxCapPluginPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
+  jump(options: { value: string }): Promise<{value: string}>;
 }

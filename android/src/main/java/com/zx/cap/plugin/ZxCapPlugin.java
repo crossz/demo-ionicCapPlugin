@@ -1,5 +1,7 @@
 package com.zx.cap.plugin;
 
+import android.content.Intent;
+
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
@@ -17,4 +19,19 @@ public class ZxCapPlugin extends Plugin {
         ret.put("value", value);
         call.success(ret);
     }
+
+
+    @PluginMethod()
+    public void jump(PluginCall call) {
+        String value = call.getString("value");
+
+        // JSObject ret = new JSObject();
+        // ret.put("value", value);
+        // call.success(ret);
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        bridge.getActivity().startActivity(intent);
+    }
+
+
 }

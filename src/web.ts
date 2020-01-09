@@ -13,6 +13,14 @@ export class ZxCapPluginWeb extends WebPlugin implements ZxCapPluginPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+
+  async jump(options: { value: string }): Promise<{value: string}> {
+    console.log('JUMP', options);
+    return options;
+  }
+
+
 }
 
 const ZxCapPlugin = new ZxCapPluginWeb();

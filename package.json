@@ -1,7 +1,7 @@
 {
-  "name": "zx-cap-plugin",
-  "version": "0.0.3",
-  "description": "zx cap plugin demo",
+  "name": "zx-cap",
+  "version": "0.0.1",
+  "description": "Zx capacitor plugin demo",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -24,7 +24,7 @@
     "dist/",
     "ios/",
     "android/",
-    "ZxCapPlugin.podspec"
+    "ZxCap.podspec"
   ],
   "keywords": [
     "capacitor",

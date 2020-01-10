@@ -1,8 +1,8 @@
 
   Pod::Spec.new do |s|
-    s.name = 'ZxCapPlugin'
+    s.name = 'ZxCap'
     s.version = '0.0.1'
-    s.summary = 'zx cap plugin demo'
+    s.summary = 'Zx capacitor plugin demo'
     s.license = 'MIT'
     s.homepage = 'https://github.com/crossz/demo-ionicCapPlugin'
     s.author = 'zx'

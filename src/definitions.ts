@@ -1,10 +1,9 @@
 declare module "@capacitor/core" {
   interface PluginRegistry {
-    ZxCapPlugin: ZxCapPluginPlugin;
+    ZxCap: ZxCapPlugin;
   }
 }
 
-export interface ZxCapPluginPlugin {
+export interface ZxCapPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
-  jump(options: { value: string }): Promise<{value: string}>;
 }

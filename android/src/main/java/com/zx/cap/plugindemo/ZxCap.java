@@ -13,8 +13,12 @@ public class ZxCap extends Plugin {
     public void echo(PluginCall call) {
         String value = call.getString("value");
 
+
+        System.out.println("----------------================----------------");
+
+        
         JSObject ret = new JSObject();
-        ret.put("value", value);
+        ret.put("value", value+value+value);
         call.success(ret);
     }
 }
